@@ -3,7 +3,7 @@ Just a silly game thrown together at a ACM@UIUC Gamebuilders gamathon.
 
 # To Run
 
-1. Download (https://love2d.org/)[love2d].
+1. Download [love2d](https://love2d.org/).
 2. Open repo directory in terminal.
 3. `path\to\love.exe .`
 
