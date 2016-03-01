@@ -83,14 +83,14 @@ end
 
 function love.update(dt)
     world:update(dt)
-        
+    
     if love.keyboard.isDown("space") and hero.canJump then
         hero.body:applyLinearImpulse(0, -hero.jump)
         hero.canJump = false
     end
     
     if love.keyboard.isDown("q") then
-        if usedouse then
+        if usedouse and dousecharges > 0 then
             dousecharges = dousecharges - 1
             burn = douseantiburn
         end
